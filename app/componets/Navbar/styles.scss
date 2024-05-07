@@ -1,0 +1,29 @@
+.navbar_container {
+  background-color: #35454d;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1em;
+  .pokeball_icon {
+  }
+  .search_navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    .text {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+    }
+    .submit {
+      padding: 8px 16px;
+      background-color: #031104;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
